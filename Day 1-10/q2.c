@@ -1,5 +1,4 @@
 /*Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.*/
-  code:
 #include <stdlib.h>
 int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
     int* result = (int*)malloc(2 * sizeof(int));
