@@ -14,7 +14,7 @@ int main() {
             if(arr[j] < arr[min]) {
                 min = j;
             }
-        }
+         }
         int temp = arr[i];
         arr[i] = arr[min];
         arr[min] = temp;
