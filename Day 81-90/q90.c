@@ -7,7 +7,7 @@ int isPossible(int arr[], int n, int k, int mid) {
         if(arr[i] > mid) return 0;
         if(sum + arr[i] <= mid) {
             sum += arr[i];
-        } else {
+        } else { 
             painters++;
             sum = arr[i];
         }
